@@ -11,7 +11,7 @@ angular.module('myApp.contacts', ['ngRoute'])
 
 .controller('contactsCtrl', ['$scope','$firebaseArray', function($scope, $firebaseArray) {
     //console.log('contacts controller loaded..');
-    var ref = new firebase('https://console.firebase.google.com/u/0/project/angularjsfirebasemessageapp')
+    var ref = new firebase("https://angularjsfirebasemessageapp.firebaseio.com")
 
     $scope.contacts = $firebaseArray(ref);
 

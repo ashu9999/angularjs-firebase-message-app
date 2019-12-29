@@ -1,23 +1,22 @@
 <div class="row" ng-controller="ContactCtrl">
     <div class="col-md-5">
-        <h3>Add Contact</h3>
-        <form ng-submit="addContact()">
-            <div class="form-group">
-              <label>Name</label>
-              <input type="text" class="form-control" ng-model="name" placeholder="Name">
-            </div>
-            
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" class="form-control" ng-model="email" placeholder="Email">
-            </div>
-            
-            <div class="form-group">
-                <label>Phone no.</label>
-                <input type="text" class="form-control" ng-model="phone" placeholder="Name">
-            </div>
-
-
+        <h3 class="text-center">Add Contact</h3>
+        <form style="margin-left: 30px;" ng-submit="addContact()">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" ng-model="name" placeholder="Name">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" class="form-control" ng-model="email" placeholder="Email">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Phone no.</label>
+                      <input type="text" class="form-control" ng-model="phone" placeholder="Name">
+                  </div>
+      
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
     </div>

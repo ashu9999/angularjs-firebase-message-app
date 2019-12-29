@@ -48,5 +48,28 @@
   <script src="core/version/version.js"></script>
   <script src="core/version/version-directive.js"></script>
   <script src="core/version/interpolate-filter.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD_G5EbmfRyGvnq1QOxNGxnd3Y6VzerPdY",
+    authDomain: "angularjsfirebasemessageapp.firebaseapp.com",
+    databaseURL: "https://angularjsfirebasemessageapp.firebaseio.com",
+    projectId: "angularjsfirebasemessageapp",
+    storageBucket: "angularjsfirebasemessageapp.appspot.com",
+    messagingSenderId: "564338301852",
+    appId: "1:564338301852:web:8282ed3c8eb8491fae0659",
+    measurementId: "G-STJ3Y8297X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
