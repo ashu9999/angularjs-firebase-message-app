@@ -5,7 +5,7 @@
   "repository": "https://github.com/ashu9999/angularjs-firebase-message-app.git",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.0",
     "angular-loader": "^1.7.5",
     "angular-route": "^1.7.5",
     "firebase": "^7.6.1",
